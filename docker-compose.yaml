@@ -35,7 +35,7 @@ services:
     volumes: 
       - ./src:/var/www/html
   artisan:
-    container_name: arisan-utility
+    container_name: artisan-utility
     build:
       context: .
       dockerfile: dockerfiles/php.dockerfile
